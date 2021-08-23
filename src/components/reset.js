@@ -1,11 +1,11 @@
 import React from 'react'
-import "../css/login.css"
+import "../css/reset.css"
 
-function login() {
+function reset() {
     return (
         <div className="continer">
         <div className="form-continer">
-            <h2>Login</h2>
+            <h2>Reset password</h2>
             <form action=""> 
                 <div className="input"> 
                 <i class="fa fa-envelope ic1"></i>                                                                            
@@ -14,16 +14,8 @@ function login() {
                 className="text_box"
                 placeholder="Email"
                 />  
-                </div> 
-                <div className="input"> 
-                <i class="fa fa-lock ic2"></i>                                                   
-                <input 
-                type="password"  
-                className="text_box"
-                placeholder="Password" 
-                /> 
-                </div>                   
-                <button type="submit">Login</button>
+                </div>                    
+                <button type="submit">Reset</button>
             </form>
             <p> Dose not have a account? Register here! </p>
         </div>
@@ -31,4 +23,4 @@ function login() {
     )
 }
 
-export default login
+export default reset

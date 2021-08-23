@@ -33,6 +33,25 @@ form{
     align-items: center;
 
 }
+
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+i{  
+    position: absolute;
+    left: -20px;
+}
+
+
+
+.ic1{
+    font-size: 30px;
+}
+
 h2{
     color: #fff;
     margin: 20px;
@@ -44,6 +63,7 @@ input{
     border: none;
     outline: none;
     border-radius: 2px;
+    text-align: center;
 }
 
 input:focus{
