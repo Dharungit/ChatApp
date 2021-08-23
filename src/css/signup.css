@@ -41,14 +41,15 @@ form{
     position: relative;
 }
 
-i{  
+.icon1, .icon{  
     position: absolute;
-    left: -20px;
+    left: 15px;
+    color: #03071e;
 }
 
 
 
-.ic1{
+.icon1{
     font-size: 30px;
 }
 
@@ -87,5 +88,8 @@ button:hover{
     background-image: linear-gradient(to left top, #4ea8de,#03071e );   
 }
 
-
-
+.text_box{
+    width: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+}

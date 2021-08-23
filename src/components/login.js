@@ -8,18 +8,18 @@ function login() {
             <h2>Login</h2>
             <form action=""> 
                 <div className="input"> 
-                <i class="fa fa-envelope ic1"></i>                                                                            
+                <i class="fa fa-envelope icon1"></i>                                                                            
                 <input 
                 type="Email"
-                className="text_box"
+                className="text_box1"
                 placeholder="Email"
                 />  
                 </div> 
                 <div className="input"> 
-                <i class="fa fa-lock ic2"></i>                                                   
+                <i class="fa fa-lock icon2"></i>                                                   
                 <input 
                 type="password"  
-                className="text_box"
+                className="text_box1"
                 placeholder="Password" 
                 /> 
                 </div>                   

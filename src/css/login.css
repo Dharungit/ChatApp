@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: linear-gradient(to right bottom, #4ea8de,#03071e );   
+    background-image: linear-gradient(to right bottom, #4ea8de,#03071e ) ;   
 }
 
 .continer{
@@ -40,16 +40,17 @@ form{
     position: relative;
 }
 
-i{  
+.icon1, .icon2{  
     position: absolute;
-    left: -20px;
+    left: 15px;
+    color: #03071e;
 }
 
-.ic1{
+.icon1{
     font-size: larger;
 }
 
-.ic2{
+.icon2{
     font-size: x-large;
 }
 
@@ -80,7 +81,7 @@ button{
     outline: none;
     color: #fff;
     background-image: linear-gradient(to right bottom, #4ea8de,#03071e );   
-    transition: .6s ease-in;
+    transition: 1s ease-in;
 }
 
 button:hover{
@@ -90,6 +91,12 @@ button:hover{
 p{
     font-size: 13px;
     text-align: center;
+}
+
+.text_box1{
+    width: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 @media only screen and (min-width: 500px){

@@ -14,7 +14,6 @@ body{
     justify-content: center;
     align-items: center;
 }
-
 .form-continer{
     display: flex;
     flex-direction: column;
@@ -42,7 +41,8 @@ form{
 
 i{  
     position: absolute;
-    left: -20px;
+    left: 15px;
+    color: #03071e;
 }
 
 .ic1{

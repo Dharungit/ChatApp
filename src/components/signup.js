@@ -11,7 +11,7 @@ function signup() {
                 <h2>Sign-up</h2>
                 <form action="">
                     <div className="input">
-                    <i class="fa fa-user ic1"></i>                    
+                    <i class="fa fa-user icon1"></i>                    
                     <input 
                     type="text"
                     className="text_box"
@@ -19,7 +19,7 @@ function signup() {
                       />
                       </div>
                     <div className="input"> 
-                    <i class="fa fa-envelope"></i>                    
+                    <i class="fa fa-envelope icon"></i>                    
 
                     <input 
                     type="Email"
@@ -28,7 +28,7 @@ function signup() {
                     />  
                     </div>   
                     <div className="input">
-                    <i class="fa fa-lock ic1"></i>                    
+                    <i class="fa fa-lock icon1"></i>                    
                     <input 
                     type="password"  
                     className="text_box"
@@ -36,7 +36,7 @@ function signup() {
                     /> 
                     </div>
                     <div className="input">
-                    <i class="fa fa-lock ic1"></i>                    
+                    <i class="fa fa-lock icon1"></i>                    
                     <input 
                     type="password" 
                     className="text_box"
