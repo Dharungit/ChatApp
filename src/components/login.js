@@ -25,6 +25,7 @@ function login() {
                 </div>                   
                 <button type="submit">Login</button>
             </form>
+            <p>Forget Password</p>
             <p> Dose not have a account? Register here! </p>
         </div>
     </div>
