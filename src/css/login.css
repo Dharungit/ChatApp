@@ -67,5 +67,9 @@ button:hover{
     background-image: linear-gradient(to left top, #4ea8de,#03071e );   
 }
 
+p{
+    font-size: 13px;
+    text-align: center;
+}
 
 
