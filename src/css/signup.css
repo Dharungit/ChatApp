@@ -93,3 +93,6 @@ button:hover{
     padding-left: 30px;
     padding-right: 30px;
 }
+.login-link{
+    font-size: 15px;
+}
